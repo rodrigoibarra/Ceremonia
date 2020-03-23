@@ -1,0 +1,32 @@
+:root {
+    font-size: calc(1rem + 0.5vw);
+    font-family: 'Roboto', sans-serif;
+    color:#393939;
+    --dark-purple: #430274;
+    --light-purple: #7C00E1;
+    --mid-purple: #A600C2;
+    --light-yellow:#FFDC00;
+    --other-yellow:#E09F00;
+    --green:#588444;
+    --dark-color:#393939;
+    --light-bg:#F6F2EC;
+    --width: 60ch;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    max-width: var(--width);
+  }
+
+  html,
+  body,
+  div,
+  header,
+  section,
+  nav,
+  main,
+  footer {
+  max-width: none;
+  }
